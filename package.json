@@ -1,0 +1,13 @@
+{
+  "name": "randomName",
+  "version": "0.0.1",
+  "description": "A random name generator",
+  "dependencies": {
+    "express": "^4.4.3",
+    "logfmt": "^1.1.2",
+    "mime": "^1.2.11"
+  },
+  "engines": {
+    "node": "0.11.x"
+  }
+}

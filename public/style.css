@@ -1,0 +1,23 @@
+body {
+  background: #eee;
+  font-family: Helvetica, serif;
+  font-weight: 200;
+}
+
+h1 {
+  color: #9c9c9c;
+  text-shadow: 1px 1px #fff;
+  font-weight: 200;
+  font-size: 60px;
+  text-align: center;
+}
+
+#content {
+  height: 50%;
+  width: 100%;
+  position:absolute;
+  top: 50%;
+  margin-top: -100px;
+  margin-left: -20px;
+  margin-right: -20px;
+}

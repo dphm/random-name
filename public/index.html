@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <title>random-name</title>
+    <link rel='stylesheet' type='text/css' href='/style.css' />  
+  </head>
+
+  <body>
+    <div id='content'>
+      <script src='/randomName.js' type='text/javascript'></script>
+      <script>
+        var e = document.createElement('h1');
+        e.textContent = window.randomName();
+        document.getElementById('content').appendChild(e);
+      </script>
+    </div>
+  </body>
+</html>
